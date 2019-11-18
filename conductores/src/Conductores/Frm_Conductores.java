@@ -17,7 +17,7 @@ public class Frm_Conductores extends javax.swing.JFrame {
     {
         if(fila>4)
         {
-            JOptionPane.showMessageDialog(null,"YA no hay cupo we");
+            JOptionPane.showMessageDialog(null,"YA no hay cupo we"); 
         }
         else
         {
@@ -53,7 +53,7 @@ public class Frm_Conductores extends javax.swing.JFrame {
         }
         if(sw==0)
         {
-            JOptionPane.showMessageDialog(null,"EL chofe"+"    "+ TxtCodigo.getText()+"    "+ "no esta en el registro we");
+            JOptionPane.showMessageDialog(null,"EL chofer"+"    "+ TxtCodigo.getText()+"    "+ "no esta en el registro we");
         }
 
     }
